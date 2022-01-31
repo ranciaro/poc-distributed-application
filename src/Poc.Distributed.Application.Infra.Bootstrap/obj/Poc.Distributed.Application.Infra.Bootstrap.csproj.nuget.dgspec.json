@@ -4,6 +4,86 @@
     "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Infra.Bootstrap\\Poc.Distributed.Application.Infra.Bootstrap.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj",
+        "projectName": "Poc.Distributed.Application.Business.Application",
+        "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj",
+        "packagesPath": "C:\\Users\\Renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Renan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj": {
+                "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Silverback.Core": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Silverback.Core.Model": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Silverback.Integration": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Silverback.Integration.Kafka": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -82,6 +162,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj": {
+                "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj"
+              },
               "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj": {
                 "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj"
               }
@@ -98,7 +181,15 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Silverback.Core": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Silverback.Core.Model": {
               "target": "Package",
               "version": "[3.5.0, )"
             },

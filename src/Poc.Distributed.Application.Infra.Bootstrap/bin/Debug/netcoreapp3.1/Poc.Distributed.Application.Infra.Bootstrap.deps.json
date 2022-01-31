@@ -8,8 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Poc.Distributed.Application.Infra.Bootstrap/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Poc.Distributed.Application.Business.Application": "1.0.0",
           "Poc.Distributed.Application.Business.Domain": "1.0.0",
           "Silverback.Core": "3.5.0",
+          "Silverback.Core.Model": "3.5.0",
           "Silverback.Integration": "3.5.0",
           "Silverback.Integration.Kafka": "3.5.0"
         },
@@ -151,6 +154,73 @@
           }
         }
       },
+      "MediatR/10.0.1": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.0.0"
@@ -223,6 +293,17 @@
         },
         "runtime": {
           "lib/netstandard2.1/Silverback.Core.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "Silverback.Core.Model/3.5.0": {
+        "dependencies": {
+          "Silverback.Core": "3.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Silverback.Core.Model.dll": {
             "assemblyVersion": "3.5.0.0",
             "fileVersion": "3.5.0.0"
           }
@@ -307,6 +388,19 @@
           }
         }
       },
+      "Poc.Distributed.Application.Business.Application/1.0.0": {
+        "dependencies": {
+          "MediatR": "10.0.1",
+          "Poc.Distributed.Application.Business.Domain": "1.0.0",
+          "Silverback.Core": "3.5.0",
+          "Silverback.Core.Model": "3.5.0",
+          "Silverback.Integration": "3.5.0",
+          "Silverback.Integration.Kafka": "3.5.0"
+        },
+        "runtime": {
+          "Poc.Distributed.Application.Business.Application.dll": {}
+        }
+      },
       "Poc.Distributed.Application.Business.Domain/1.0.0": {
         "runtime": {
           "Poc.Distributed.Application.Business.Domain.dll": {}
@@ -340,6 +434,48 @@
       "sha512": "sha512-8NipuyiD21aJO9kKv9FHzBbcHpWkquq+n/MpwLIm0Aac/+quRVyYIEYAa7hfcFfCdnjiBeMZxGblnBIzw5X6RQ==",
       "path": "librdkafka.redist/1.8.2",
       "hashPath": "librdkafka.redist.1.8.2.nupkg.sha512"
+    },
+    "MediatR/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vnjbk4giDJzJelh34Ygt0eorApCKrRFB7j0pauFPY1oxfO3cEZ7FugBrIOjCM76SDGTOmPFfbfmVnz1t3iFrGA==",
+      "path": "mediatr/10.0.1",
+      "hashPath": "mediatr.10.0.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "path": "mediatr.contracts/1.0.1",
+      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ubycklv+ZY7Kutdwuy1W4upWcZ6VFR8WUXU7l7B2+mvbDBBPAcfpi+E+Y5GFe+Q157YfA3C49D2GCjAZc7Mobw==",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1PMijw8RMtuQF60SsD/JlKtVfvh4NORAhF4wjysdABhlhTrYmtgssqyncR0Stq5vqtjplZcj6kbT4LRTglt9IQ==",
+      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
       "type": "package",
@@ -389,6 +525,13 @@
       "sha512": "sha512-sojdSmyVcDR/JDJr4mODR6/eehDcqkpO46XFLqK707XMWZ1u9pR25FdJefeTlA9ZYHwt/q4tqj+Av3R4GIXcUQ==",
       "path": "silverback.core/3.5.0",
       "hashPath": "silverback.core.3.5.0.nupkg.sha512"
+    },
+    "Silverback.Core.Model/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OfUORV8i//wFwMgP4xwfbXI7SjedRm8LgGuCXIWkqr7Bn28zsFRpIbMALQrtFAxwocDv1tpla6SAKEVYiteuAA==",
+      "path": "silverback.core.model/3.5.0",
+      "hashPath": "silverback.core.model.3.5.0.nupkg.sha512"
     },
     "Silverback.Integration/3.5.0": {
       "type": "package",
@@ -452,6 +595,11 @@
       "sha512": "sha512-RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
       "path": "system.threading.channels/5.0.0",
       "hashPath": "system.threading.channels.5.0.0.nupkg.sha512"
+    },
+    "Poc.Distributed.Application.Business.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Poc.Distributed.Application.Business.Domain/1.0.0": {
       "type": "project",

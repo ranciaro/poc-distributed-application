@@ -120,6 +120,79 @@
           }
         }
       },
+      "MediatR/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -202,6 +275,18 @@
         },
         "runtime": {
           "lib/netstandard2.1/Silverback.Core.dll": {}
+        }
+      },
+      "Silverback.Core.Model/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Silverback.Core": "3.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Silverback.Core.Model.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Silverback.Core.Model.dll": {}
         }
       },
       "Silverback.Integration/3.5.0": {
@@ -297,6 +382,24 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        }
+      },
+      "Poc.Distributed.Application.Business.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "10.0.1",
+          "Poc.Distributed.Application.Business.Domain": "1.0.0",
+          "Silverback.Core": "3.5.0",
+          "Silverback.Core.Model": "3.5.0",
+          "Silverback.Integration": "3.5.0",
+          "Silverback.Integration.Kafka": "3.5.0"
+        },
+        "compile": {
+          "bin/placeholder/Poc.Distributed.Application.Business.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Poc.Distributed.Application.Business.Application.dll": {}
         }
       },
       "Poc.Distributed.Application.Business.Domain/1.0.0": {
@@ -400,6 +503,88 @@
         "runtimes/win-x86/native/zstd.dll"
       ]
     },
+    "MediatR/10.0.1": {
+      "sha512": "vnjbk4giDJzJelh34Ygt0eorApCKrRFB7j0pauFPY1oxfO3cEZ7FugBrIOjCM76SDGTOmPFfbfmVnz1t3iFrGA==",
+      "type": "package",
+      "path": "mediatr/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.10.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+      "sha512": "ubycklv+ZY7Kutdwuy1W4upWcZ6VFR8WUXU7l7B2+mvbDBBPAcfpi+E+Y5GFe+Q157YfA3C49D2GCjAZc7Mobw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml",
+        "microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
+      "sha512": "1PMijw8RMtuQF60SsD/JlKtVfvh4NORAhF4wjysdABhlhTrYmtgssqyncR0Stq5vqtjplZcj6kbT4LRTglt9IQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
+        "microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
       "sha512": "Lge/PbXC53jI1MF2J92X5EZOeKV8Q/rlB1aV3H9I/ZTDyQGOyBcL03IAvnviWpHKj43BDkNy6kU2KKoh8kAS0g==",
       "type": "package",
@@ -497,6 +682,19 @@
         "lib/netstandard2.1/Silverback.Core.xml",
         "silverback.core.3.5.0.nupkg.sha512",
         "silverback.core.nuspec"
+      ]
+    },
+    "Silverback.Core.Model/3.5.0": {
+      "sha512": "OfUORV8i//wFwMgP4xwfbXI7SjedRm8LgGuCXIWkqr7Bn28zsFRpIbMALQrtFAxwocDv1tpla6SAKEVYiteuAA==",
+      "type": "package",
+      "path": "silverback.core.model/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Silverback.Core.Model.dll",
+        "lib/netstandard2.1/Silverback.Core.Model.xml",
+        "silverback.core.model.3.5.0.nupkg.sha512",
+        "silverback.core.model.nuspec"
       ]
     },
     "Silverback.Integration/3.5.0": {
@@ -788,6 +986,11 @@
         "version.txt"
       ]
     },
+    "Poc.Distributed.Application.Business.Application/1.0.0": {
+      "type": "project",
+      "path": "../Poc.Distributed.Application.Business.Application/Poc.Distributed.Application.Business.Application.csproj",
+      "msbuildProject": "../Poc.Distributed.Application.Business.Application/Poc.Distributed.Application.Business.Application.csproj"
+    },
     "Poc.Distributed.Application.Business.Domain/1.0.0": {
       "type": "project",
       "path": "../Poc.Distributed.Application.Business.Domain/Poc.Distributed.Application.Business.Domain.csproj",
@@ -796,8 +999,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNetCore.Hosting.Abstractions >= 2.2.0",
+      "Poc.Distributed.Application.Business.Application >= 1.0.0",
       "Poc.Distributed.Application.Business.Domain >= 1.0.0",
       "Silverback.Core >= 3.5.0",
+      "Silverback.Core.Model >= 3.5.0",
       "Silverback.Integration >= 3.5.0",
       "Silverback.Integration.Kafka >= 3.5.0"
     ]
@@ -829,6 +1035,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj": {
+              "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj"
+            },
             "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj": {
               "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj"
             }
@@ -845,7 +1054,15 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Silverback.Core": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
+          "Silverback.Core.Model": {
             "target": "Package",
             "version": "[3.5.0, )"
           },

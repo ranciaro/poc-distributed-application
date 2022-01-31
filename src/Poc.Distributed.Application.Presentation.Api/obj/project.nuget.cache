@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Sb2pOUqGC3MMAvWIZbsTtovRWrrTV5TZH9CqYaKTc5R//gqUCQuawqRkK+YRBBVj1q8+YHDZ8Dog9Trefgm5Ag==",
+  "dgSpecHash": "K44hElZPftmQzN7FNV7ao4j75Sg4htnUNDQdir2S++0GxRZtYaeoDJ9gl7R66KLM/65sjQIKIOKblSGZpS95bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Presentation.Api\\Poc.Distributed.Application.Presentation.Api.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,10 @@
     "C:\\Users\\Renan\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

@@ -162,6 +162,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj": {
+                "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Application\\Poc.Distributed.Application.Business.Application.csproj"
+              },
               "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj": {
                 "projectPath": "C:\\Users\\Renan\\source\\repos\\poc-distributed-application\\src\\Poc.Distributed.Application.Business.Domain\\Poc.Distributed.Application.Business.Domain.csproj"
               }
@@ -178,7 +181,15 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Silverback.Core": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Silverback.Core.Model": {
               "target": "Package",
               "version": "[3.5.0, )"
             },

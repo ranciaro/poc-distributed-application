@@ -11,3 +11,5 @@ C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Appl
 C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.csproj.CopyComplete
 C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.dll
 C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.pdb
