@@ -12,6 +12,5 @@ namespace Poc.Distributed.Application.Business.Application.Consumers
             var message = sqlInsertedEvent.Message;
             // ...your message handling logic...
         }
-
     }
 }

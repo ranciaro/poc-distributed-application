@@ -1,14 +1,14 @@
 ﻿using Confluent.Kafka;
 using Confluent.Kafka.Admin;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using Poc.Distributed.Application.Infra.Bootstrap.Kafka.EndpointsConfigurator;
 using Silverback.Messaging.Broker;
 using Silverback.Messaging.Broker.Kafka;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -22,7 +22,7 @@ namespace Poc.Distributed.Application.Infra.Bootstrap
         private readonly IConfluentAdminClientBuilder _confluentAdminClientBuilder;
 
         public HostedService(IConfiguration configuration,
-                             IBrokerCollection brokers, 
+                             IBrokerCollection brokers,
                              IConfluentAdminClientBuilder confluentAdminClientBuilder)
         {
             _configuration = configuration;
@@ -30,13 +30,20 @@ namespace Poc.Distributed.Application.Infra.Bootstrap
             _confluentAdminClientBuilder = confluentAdminClientBuilder;
         }
 
-        public async Task StartAsync(CancellationToken cancellationToken)
+        public Task StartAsync(CancellationToken cancellationToken)
+        {
+            if (_configuration.GetValue<bool>("AutoCreateTopics"))
+                CreateKafkaTopics();
+
+            return Task.CompletedTask;
+        }
+
+        private void CreateKafkaTopics()
         {
             _adminClient = _confluentAdminClientBuilder.Build(new ClientConfig() { BootstrapServers = _configuration.GetConnectionString("Kafka") });
-            IList<PartitionsSpecification> topicsToCreate = new List<PartitionsSpecification>() { new PartitionsSpecification { Topic = "sql-inserted-event", IncreaseTo = 1 } };
-            //if(_configuration.GetValue<bool>("AllowedSwagger"))
-            //await _adminClient.CreateTopicsAsync(new List<TopicSpecification>() { new TopicSpecification() { Name = "sql-inserted-event" } });
-            //await _adminClient.CreatePartitionsAsync(topicsToCreate);
+            var topicsToCreate = typeof(KafkaTopics).GetAllPublicConstantValues<string>().Select(x => new TopicSpecification() { Name = x }).ToList();
+            foreach (var topic in topicsToCreate)
+                _adminClient.GetMetadata(topic.Name, TimeSpan.FromSeconds(30));
         }
 
         public Task StopAsync(CancellationToken cancellationToken) => Task.CompletedTask;

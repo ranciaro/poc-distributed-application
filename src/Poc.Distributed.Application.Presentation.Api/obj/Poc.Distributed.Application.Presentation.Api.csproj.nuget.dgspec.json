@@ -181,9 +181,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Hosting.Abstractions": {
+            "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.22, )"
             },
             "Silverback.Core": {
               "target": "Package",
@@ -357,14 +357,6 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
-            },
-            "Silverback.Core": {
-              "target": "Package",
-              "version": "[3.5.0, )"
-            },
-            "Silverback.Integration.Kafka": {
-              "target": "Package",
-              "version": "[3.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
