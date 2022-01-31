@@ -1,0 +1,68 @@
+version: '3.4'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo-poc-distributed-application
+    ports:
+      - "27017:27017"
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express-poc-distributed-application
+    ports:
+      - '8081:8081'
+    depends_on:
+      - mongo
+  jaeger: 
+    container_name: jaeger-poc-distributed-application
+    image: jaegertracing/all-in-one
+    environment: 
+      - COLLECTOR_ZIPKIN_HTTP_PORT=9411
+    ports:
+      - "5775:5775/udp"
+      - "6831:6831/udp"
+      - "6832:6832/udp"
+      - "5778:5778"
+      - "16686:16686"
+      - "14268:14268"
+      - "14250:14250"
+      - "9411:9411"
+  redis:
+    container_name: redis-poc-distributed-application
+    image: redis
+    ports:
+      - "6379:6379"  
+
+  zookeeper:
+    container_name: zookeeper-poc-distributed-application
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      - ZOOKEEPER_CLIENT_PORT=2181
+      - ZOOKEEPER_TICK_TIME=2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    container_name: kafka-poc-distributed-application
+    depends_on:
+      - zookeeper
+    image: confluentinc/cp-kafka:latest
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_NUM_PARTITIONS: 3
+      CONFLUENT_SUPPORT_METRICS_ENABLE: 0
+    ports:
+      - "9092:9092"
+  mssql:
+    image: mcr.microsoft.com/azure-sql-edge
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password@123
+      - MSSQL_PID=Developer

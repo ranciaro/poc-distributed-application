@@ -1,0 +1,10 @@
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.deps.json
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.AssemblyInfo.cs
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Domain\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.pdb

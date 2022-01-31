@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f3e43b6b-8ecc-4bc1-aaae-ea5b0ff79d43": {
+      "ProjectGuid": "f3e43b6b-8ecc-4bc1-aaae-ea5b0ff79d43",
+      "DisplayName": "Poc.Distributed.Application.Presentation.Api",
+      "ColorIndex": 0
+    },
+    "abe22f2c-2a35-40c0-8569-067c38d5d8d4": {
+      "ProjectGuid": "abe22f2c-2a35-40c0-8569-067c38d5d8d4",
+      "DisplayName": "Poc.Distributed.Application.Presentation.Api",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d5db4db3-a32e-404c-9205-572be59df96a": {
+      "ProjectGuid": "d5db4db3-a32e-404c-9205-572be59df96a",
+      "DisplayName": "Poc.Distributed.Application.Business.Application",
+      "ColorIndex": 2
+    },
+    "c45e9373-45e3-4fa3-b1c1-3aa619e8dca4": {
+      "ProjectGuid": "c45e9373-45e3-4fa3-b1c1-3aa619e8dca4",
+      "DisplayName": "Poc.Distributed.Application.Business.Application",
+      "ColorIndex": 3
+    },
+    "75336cb6-144a-4a1f-bf95-0234a36e2e70": {
+      "ProjectGuid": "75336cb6-144a-4a1f-bf95-0234a36e2e70",
+      "DisplayName": "Poc.Distributed.Application.Infra.Repository",
+      "ColorIndex": 4
+    },
+    "6808fb1c-8e90-406d-8c80-38abdac2a018": {
+      "ProjectGuid": "6808fb1c-8e90-406d-8c80-38abdac2a018",
+      "DisplayName": "Poc.Distributed.Application.Business.Domain",
+      "ColorIndex": 5
+    },
+    "5478a042-287b-49bf-a8cc-ea8cbbd67b27": {
+      "ProjectGuid": "5478a042-287b-49bf-a8cc-ea8cbbd67b27",
+      "DisplayName": "Poc.Distributed.Application.Infra.Bootstrap",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

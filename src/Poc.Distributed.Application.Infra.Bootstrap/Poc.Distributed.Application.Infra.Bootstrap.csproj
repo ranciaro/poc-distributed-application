@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silverback.Core" Version="3.5.0" />
+    <PackageReference Include="Silverback.Integration" Version="3.5.0" />
+    <PackageReference Include="Silverback.Integration.Kafka" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Kafka\Outbound\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Distributed.Application.Business.Domain\Poc.Distributed.Application.Business.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

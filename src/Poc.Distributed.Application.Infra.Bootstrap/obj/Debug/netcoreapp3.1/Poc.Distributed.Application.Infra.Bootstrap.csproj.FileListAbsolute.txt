@@ -1,0 +1,13 @@
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.AssemblyInfo.cs
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.deps.json
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.csproj.CopyComplete
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Bootstrap\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Bootstrap.pdb

@@ -1,0 +1,13 @@
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.deps.json
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.AssemblyInfo.cs
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.csproj.CopyComplete
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Infra.Repository\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Infra.Repository.pdb

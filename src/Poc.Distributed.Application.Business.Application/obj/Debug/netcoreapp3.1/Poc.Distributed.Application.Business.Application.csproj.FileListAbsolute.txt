@@ -1,0 +1,13 @@
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.deps.json
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.csproj.AssemblyReference.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.AssemblyInfoInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.AssemblyInfo.cs
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.dll
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\bin\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Domain.pdb
+C:\Users\Renan\source\repos\poc-distributed-application\src\Poc.Distributed.Application.Business.Application\obj\Debug\netcoreapp3.1\Poc.Distributed.Application.Business.Application.csproj.CopyComplete
