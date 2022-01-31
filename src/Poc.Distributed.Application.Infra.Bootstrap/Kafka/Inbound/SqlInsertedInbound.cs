@@ -14,8 +14,6 @@ namespace Poc.Distributed.Application.Infra.Bootstrap
                            .Configure(config =>
                            {
                                config.GroupId = EndpointConfigurator.ConsumerGroupId;
-                               //config.AllowAutoCreateTopics = true;
-                               //config.AutoOffsetReset = Confluent.Kafka.AutoOffsetReset.Earliest;
                            })
                            .OnError(policy => policy.Retry(5));
         }

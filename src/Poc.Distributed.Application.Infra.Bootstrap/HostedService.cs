@@ -18,15 +18,12 @@ namespace Poc.Distributed.Application.Infra.Bootstrap
     {
         private IConfiguration _configuration;
         private IAdminClient _adminClient;
-        private readonly IBrokerCollection _brokers;
         private readonly IConfluentAdminClientBuilder _confluentAdminClientBuilder;
 
         public HostedService(IConfiguration configuration,
-                             IBrokerCollection brokers,
                              IConfluentAdminClientBuilder confluentAdminClientBuilder)
         {
             _configuration = configuration;
-            _brokers = brokers;
             _confluentAdminClientBuilder = confluentAdminClientBuilder;
         }
 
